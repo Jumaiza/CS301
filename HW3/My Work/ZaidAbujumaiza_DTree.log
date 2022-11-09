@@ -1,0 +1,19 @@
+|--- feature_10 <= 10.53
+|   |--- feature_6 <= 98.50
+|   |   |--- feature_9 <= 0.57
+|   |   |   |--- class: 5
+|   |   |--- feature_9 >  0.57
+|   |   |   |--- class: 6
+|   |--- feature_6 >  98.50
+|   |   |--- class: 5
+|--- feature_10 >  10.53
+|   |--- feature_1 <= 0.42
+|   |   |--- feature_9 <= 0.73
+|   |   |   |--- class: 6
+|   |   |--- feature_9 >  0.73
+|   |   |   |--- class: 7
+|   |--- feature_1 >  0.42
+|   |   |--- feature_9 <= 0.58
+|   |   |   |--- class: 6
+|   |   |--- feature_9 >  0.58
+|   |   |   |--- class: 6

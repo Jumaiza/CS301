@@ -1,0 +1,13 @@
+|--- feature_2 <= 2.60
+|   |--- class: 0
+|--- feature_2 >  2.60
+|   |--- feature_3 <= 1.65
+|   |   |--- feature_2 <= 4.95
+|   |   |   |--- class: 1
+|   |   |--- feature_2 >  4.95
+|   |   |   |--- class: 2
+|   |--- feature_3 >  1.65
+|   |   |--- feature_0 <= 5.95
+|   |   |   |--- class: 2
+|   |   |--- feature_0 >  5.95
+|   |   |   |--- class: 2
